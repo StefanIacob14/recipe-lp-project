@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(73, 50, 50);
+  background-color: #f3e5d8;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.omelette-recipe-card {
+  background-color: white;
+  width: 720px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 50px;
+  border-radius: 20px;
+}
+
+.recipe-image {
+  display: block;
+  margin: 40px auto;
+  height: 350px;
+  width: 620px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+h1,
+h2 {
+  font-family: Young Serif;
+  margin-bottom: 15px;
+}
+
+h1,
+h2 {
+  color: rgb(140, 51, 51);
+}
+
+.preparation-time {
+  margin: 30px 0;
+  background-color: #78178e08;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 2.5;
+  font-size: 14px;
+}
+
+.preparation-time-title {
+  color: #611671;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.nutrition li {
+  margin-left: 0;
+}
+
+.ingredients {
+  line-height: 2.5;
+}
+
+.instructions,
+.nutrition {
+  border-top: 2px solid rgba(128, 128, 128, 0.163);
+  margin-top: 25px;
+  padding: 25px 0;
+  padding-bottom: 10px;
+}
+
+.instructions li p {
+  margin-left: 20px;
+}
+
+.ingredients li p {
+  margin-left: 20px;
+}
+
+.nutrition-list {
+  margin-top: 20px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.nutrition-list li {
+  padding: 10px 0;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.163);
+}
+
+.nutrition-list li:last-child {
+  border: none;
+}
+
+.calories {
+  margin-left: 250px;
+  color: rgb(140, 51, 51);
+}
+
+.carbs {
+  margin-left: 266px;
+  color: rgb(140, 51, 51);
+}
+
+.protein {
+  margin-left: 258px;
+  color: rgb(140, 51, 51);
+}
+
+.fat {
+  margin-left: 286px;
+  color: rgb(140, 51, 51);
+}
+
+.calories-line,
+.carbs-line,
+.protein-line,
+.fat-line {
+  margin-left: 30px;
+}
